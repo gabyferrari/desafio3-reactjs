@@ -13,6 +13,8 @@
   --color-font-tertiary: #7e7e7e;
   --color-font-quaternary: #bfbfbf;
   --color-font-quinary: #737373;
+  --color-font-senary: #5c5858;
+  --color-font-septenary: #1890ff;
 
   --color-border-primary: #d9d9d9;
 }
@@ -46,6 +48,10 @@ body {
 
 .mt30 {
   margin-top: 30px;
+}
+
+.mt50 {
+  margin-top: 50px;
 }
 
 .title-style {
