@@ -10,3 +10,10 @@
     justify-content: center;
     border: none;
 }
+
+@media (max-width: 576px) {
+  .button {
+    height: 30px;
+    font-size: 12px;
+    }
+}

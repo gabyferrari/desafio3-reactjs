@@ -5,7 +5,7 @@ export default function HomeBody() {
 
   return (
     <main>
-      <section>
+      <section className="pd20">
         <div className="container-home">
           <div className="title-style mt30">
             <h2>Desafio Github API</h2>

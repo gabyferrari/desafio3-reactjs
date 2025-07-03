@@ -28,3 +28,18 @@
     outline: none;
 }
 
+@media (max-width: 576px) {
+    .card-search {
+    height: 200px;
+    }
+    .card-search h2 {
+    font-size: 22px;
+    margin-top: 10px;
+    }
+    .search-box-style {
+    width: 100%;
+    max-width: 298px;
+    height: 30px;
+    font-size: 12px;
+    }
+}

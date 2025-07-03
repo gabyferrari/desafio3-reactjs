@@ -4,7 +4,7 @@ export default function SearchProfile() {
 
   return (
     <main>
-      <section>
+      <section className="pd20">
          <CardSearch />
       </section>
     </main>
