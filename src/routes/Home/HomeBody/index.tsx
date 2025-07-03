@@ -1,7 +1,8 @@
+import { Link } from "react-router-dom";
 import Button from "../../../components/Button";
 
 export default function HomeBody() {
-  
+
   return (
     <main>
       <section>
@@ -11,7 +12,9 @@ export default function HomeBody() {
             <h3>DevSuperior - Escola de programação</h3>
           </div>
           <div className="dflex">
-            <Button text="Começar" />
+            <Link to="/search">
+              <Button text="Começar" />
+            </Link>
           </div>
         </div>
       </section>
