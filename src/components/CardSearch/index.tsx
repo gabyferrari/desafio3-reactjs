@@ -23,6 +23,8 @@ export default function CardSearch() {
 
   const [userInfo, setUserInfo] = useState<UserInfo>();
 
+  const [errorMessage, setErrorMessage] = useState<string>();
+
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   function handleUserChange(event: any) {
     setSearchData({...searchData, user: event.target.value})
@@ -36,10 +38,12 @@ export default function CardSearch() {
     axios.get(`https://api.github.com/users/${searchData.user}`)
       .then((response) => {
         setUserInfo(response.data);
+        setErrorMessage("");
       })
       .catch((error) => {
-        console.error('Usuário não encontrado:', error);
+        console.error("Erro ao buscar usuário:", error);
         setUserInfo(undefined);
+        setErrorMessage("Erro ao buscar usuário");
       });
   }
 
@@ -67,6 +71,9 @@ export default function CardSearch() {
     </section>
     
     {userInfo && <CardResult {...userInfo} />}
+
+    {errorMessage && (<p className="error-message container-search">{errorMessage}</p>)} 
+
     </> 
   );
 }
