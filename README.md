@@ -1,12 +1,11 @@
 ## Layout Figma
-https://www.figma.com/file/5cPiXC5sBQc4B4wIZKlI3i/Desafio-Rotas-React
+https://www.figma.com/file/igQqM14f9sP17jyo54Y8vL/DesafioGithubAPI
 
 ## Critérios de correção
-1) Três links da barra de navegação superior funcionando (Início, Produtos, Sobre nós).
-2) Rota ativa da barra superior destacada na barra superior.
-3) Link "home" (casinha no canto superior direito) funcionando.
-4) Três links da barra de navegação de produtos funcionando (Computadores, Eletrônicos, Livros).
-5) Rota ativa da barra de navegação de produtos destacada.
-6) Página "Não encontrado" deve aparecer para qualquer rota não configurada.
+1) Duas páginas com rotas funcionando, navegando entre elas.
+2) Quando buscar um usuário que existe, os dados do usuário devem aparecer conforme layout
+3) Quando buscar um usuário que não existe, deve aparecer uma mensagem conforme layout
+   
+Opcional: deixe seu layout responsivo
 
 
