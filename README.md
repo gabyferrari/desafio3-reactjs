@@ -9,10 +9,11 @@ https://www.figma.com/file/5cPiXC5sBQc4B4wIZKlI3i/Desafio-Rotas-React
 5) Rota ativa da barra de navegação de produtos destacada.
 6) Página "Não encontrado" deve aparecer para qualquer rota não configurada.
 7) As rotas, bem como as pastas dos componentes, devem seguir a seguinte hierarquia:
-'''/
+/
 ├── home
-├── products/
+├── products
 │   ├── computers
 │   ├── electronics
 │   └── books
-└── about'''
+└── about
+
